@@ -205,13 +205,13 @@ void keyboard(unsigned char key, int x, int y)
          exit(0);
          break;
 	case 'a':
-	case 'A':
-		//printf("Se presiono la tecla A\n");
+	case 'P':
+		//printf("Se presiono la tecla P\n");
 		octagono = true;
 		figura = false;
 		break;
 	case 'd':
-	case 'D':
+	case 'E':
 		//printf("Se presiono la tecla D\n");
 		octagono = false;
 		figura = true;
